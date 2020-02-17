@@ -1,0 +1,19 @@
+version: '3.7'
+networks:
+  repository:
+    name: repository
+    driver: bridge
+services:
+  mongodb:
+    container_name: mongodb
+    image: mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: mongoadmin
+      MONGO_INITDB_ROOT_PASSWORD: secret
+    networks:
+      - repository
+    ports:
+      - 27017:27017
+    restart: always
+    volumes:
+      - ./init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js:ro
