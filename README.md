@@ -1,1 +1,1 @@
-# Spring Boot: Application Monitoring Performance ![Maven Build](https://github.com/rashidi/spring-boot-elastic-apm/workflows/Maven%20Build/badge.svg?branch=master)
+# Spring Boot: Application Monitoring Performance ![Maven Build](https://github.com/rashidi/spring-boot-elastic-apm/workflows/Maven%20Build/badge.svg?branch=master) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=rashidi/spring-boot-elastic-apm)](https://dependabot.com)
